@@ -14,8 +14,7 @@ const RecipeItem = () => {
         <div className='app__recipe-card_body'>
             
                 <img src={require('../../assets/person-1.jpg')} className='profile_img'/>
-                <CiHeart className='favorite-icon'/>
-           
+                
             
             <h5>Veg Biryani</h5>
             
@@ -27,7 +26,7 @@ const RecipeItem = () => {
         </div>
         <div className='app__recipe-card_footer'>
             <a className='details-link'>View More..</a>
-
+            <CiHeart className='favorite-icon'/>
         </div>
 
 
@@ -51,6 +50,7 @@ const RecipeItem = () => {
         </div>
         <div className='app__recipe-card_footer'>
             <a className='details-link'>View More..</a>
+            <CiHeart className='favorite-icon'/>
 
         </div>
 
@@ -74,6 +74,7 @@ const RecipeItem = () => {
         </div>
         <div className='app__recipe-card_footer'>
             <a className='details-link'>View More..</a>
+            <CiHeart className='favorite-icon'/>
 
         </div>
 
@@ -99,6 +100,7 @@ const RecipeItem = () => {
         </div>
         <div className='app__recipe-card_footer'>
             <a className='details-link'>View More..</a>
+            <CiHeart className='favorite-icon'/>
 
         </div>
 
@@ -124,6 +126,7 @@ const RecipeItem = () => {
         </div>
         <div className='app__recipe-card_footer'>
             <a className='details-link'>View More..</a>
+            <CiHeart className='favorite-icon'/>
 
         </div>
 
@@ -149,6 +152,7 @@ const RecipeItem = () => {
         </div>
         <div className='app__recipe-card_footer'>
             <a className='details-link'>View More..</a>
+            <CiHeart className='favorite-icon'/>
 
         </div>
 

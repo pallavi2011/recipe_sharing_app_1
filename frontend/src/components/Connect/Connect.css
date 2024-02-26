@@ -1,0 +1,15 @@
+.app__recipe-connect{
+    background-color: black;
+    background: url('../../assets/insta-logo.png') center no-repeat;
+    height: 100vh;
+    padding: 50px;
+   
+}
+
+.circular-images img{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-50deg);
+    
+}
+

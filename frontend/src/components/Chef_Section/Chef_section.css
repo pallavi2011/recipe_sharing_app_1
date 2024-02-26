@@ -1,0 +1,61 @@
+.app__recipe-chef{
+    background-color: black;
+    background: url('../../assets/chef_bg.png') center repeat;
+    background-image: cover;
+    height: auto;
+}
+
+.app__recipe-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.chef-pic{
+    width: 550px;
+    height: 70vh;
+    
+}
+
+.app__recipe-aboutus-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+   
+}
+ .about-title{
+    color:#FFD233;
+    font-size: 40px;
+ }
+
+ .app__recipe-aboutus-content p{
+    font-size: 22px;
+    color: white;
+    line-height: 1.5;
+    
+ }
+
+
+
+@media screen and (max-width: 900px){
+    .chef-pic{
+        width: 400px;
+    }
+    .app__recipe-details{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        text-align: center;
+    
+    
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .chef-pic {
+        width: 80%;
+    }
+}

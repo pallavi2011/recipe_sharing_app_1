@@ -43,7 +43,10 @@
 
 .app__recipe-card_footer {
     text-align: center;
-    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
 }
 
 .app__recipe-card_footer button{
@@ -92,4 +95,17 @@ a{
     overflow-x: hidden;
     text-overflow: ellipsis;
    
+  }
+
+  .favorite-icon{
+    width: 30px;
+    height: 30px;
+    color:#FFD233;
+    
+
+  }
+
+  .icon{
+    background: none;
+
   }
