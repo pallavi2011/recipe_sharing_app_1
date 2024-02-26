@@ -1,0 +1,15 @@
+.App{
+  background-color: black;
+ 
+  
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__padding {
+  padding: 4rem 4rem;
+}

@@ -1,0 +1,241 @@
+.app__navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.app_bg{
+  background: url('../../assets/Group.png') left top no-repeat,url('../../assets/right_side_wheat.png') right bottom no-repeat, url('../../assets/header_bg.png') center repeat;
+  background-size: 150px, 250px, cover;
+  width: 100%;
+  min-height: 100vh;
+ 
+}
+
+
+
+.app__navbar-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+   
+}
+
+.app__navbar-links_list{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app__navbar-links li{
+    margin: 0 0.8rem;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.app__navbar-links li:hover{
+    color: grey;
+}
+
+.app__navbar-icons{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app__navbar-icons_i{
+    margin: 0.2rem;
+    font-size: 18px;
+}
+
+.header_title{
+    width: 450px;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left:  50px;
+    word-wrap: normal;  
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+
+}
+
+.header_text{
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media screen and (min-width:1240px) and (max-width:2050px){
+    .app_bg{
+        background-size: 250px, 200px, cover;
+        
+    }
+
+    .app__navbar-links_list{
+        margin-left: 5rem;
+    }
+
+    .app__navbar-links li{
+        margin: 1 1.2rem;
+        font-size: 28px;
+    }
+
+    .app__navbar-icons_i{
+       
+        font-size: 22px;
+    }
+
+    .header_title{
+        width: 550px;
+        padding: 20px;
+        margin-top: 80px;
+        margin-left: 50px;
+        word-wrap: normal;  
+        color: white;
+        font-size: 32px;
+        font-weight: 600;
+    
+    }
+    
+    .header_text{
+        color: white;
+        margin-left: 70px;
+        font-size: 22px;
+        font-weight: 900;
+        color: #EAAF50;
+        line-height: 0.3;
+    }
+
+}
+
+@media screen and (max-width: 1240px){
+    .app_bg{
+        background-size: 250px, 200px, cover;
+        
+        
+    }
+
+    .app__navbar-links_list{
+        margin-left: 5rem;
+    }
+
+    .app__navbar-links li{
+        margin: 1 1.2rem;
+        font-size: 26px;
+    }
+
+    .app__navbar-icons_i{
+       
+        font-size: 20px;
+    }
+
+    .header_title{
+        width: 450px;
+        padding: 20px;
+        margin-top: 90px;
+        margin-left:  40px;
+        word-wrap: normal;  
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+    
+    }
+    
+    .header_text{
+        color: white;
+        margin-left:  60px;
+        font-size: 22px;
+        font-weight: 700;
+        color: #EAAF50;
+        line-height: 0.3;
+    }
+
+}
+
+
+@media screen and (max-width: 980px){
+    
+
+    .app__navbar-links_list{
+        font-size: 16px;
+    }
+
+    .app__navbar-links_list li{
+        font-size: 16px;
+    }
+
+   
+
+    .app__navbar-icons_i{
+        font-size: 16px;
+        
+    }
+
+    .header_title{
+        width: 350px;
+        padding: 20px;
+        margin-top: 90px;
+        margin-left: 70px;
+        word-wrap: normal;  
+        color: white;
+        font-size: 26px;
+        font-weight: 600;
+    
+    }
+    
+    .header_text{
+        color: white;
+        margin-left:  90px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #EAAF50;
+        line-height: 0.1;
+    }
+
+}
+
+@media screen and (max-width: 690px){
+    .app__navbar-links{
+        visibility: hidden;
+    }
+
+    .app__navbar-icons_i{
+        visibility: hidden;
+    }
+
+    .header_title{
+        margin-left: 80px;
+    }
+    .header_text{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .app_bg{
+        background: url('../../assets/Group.png') left top no-repeat, url('../../assets/header_bg.png') center repeat;
+        background-size: 200px,cover;
+       
+    }
+
+    .app__navbar-links{
+        content:"CulinaShare";
+        color: white;
+    }
+    .header_title{
+        visibility: hidden;
+    }
+}
+
+
