@@ -1,0 +1,116 @@
+.app__recipe-footer{
+    background-color: black;
+    height: auto;
+}
+
+.subscribe-details{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    line-height: 2.5;
+    align-items: center;
+    
+}
+
+.subscribe-details h1{
+    font-size: 48px;
+}
+
+.input {
+    display: flex;
+    width: 30%;
+    position: relative;
+    align-items: center;
+    
+  }
+  
+  .input__box {
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 18px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px #EAAF50;
+    background-color: black;
+    
+  }
+  
+  .input__box:focus {
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+  
+  .input_submit {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: #EAAF50;
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+  }
+
+  .footer-links{
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    padding: 30px;
+    line-height: 2;
+  }
+
+  .download-text{
+    color: #F1E3E3;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+  .app-links{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .logo{
+    font-size: 48px;
+    color: white;
+
+  }
+
+  .links{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        
+  }
+
+  .app-links h3{
+    font-size: 32px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .app-links a{
+    color:#F1E3E3;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .social-media-links{
+    display: flex;
+    gap: 30px;
+  }
+
+  .social-media-links h3{
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    
+  }

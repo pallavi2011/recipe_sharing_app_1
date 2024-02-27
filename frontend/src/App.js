@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import RecipeItem from './components/RecipeItem/RecipeItem';
 import Chef_Section from './components/Chef_Section/Chef_Section';
 import Connect from './components/Connect/Connect';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
      <RecipeItem/>
      <Chef_Section/>
      <Connect/>
+     <Footer/>
     </div>
   );
 }

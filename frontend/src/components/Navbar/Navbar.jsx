@@ -22,11 +22,14 @@ const Navbar = () => {
               <IoMdPerson className='app__navbar-icons_i'/>
             </div>
       </div>
-      <div className='header_title'>
+      {/* <div className='header_title'>
          BE THE CHEF OF YOUR KITCHEN
       </div>
-      <span className='header_text'>From Breakfast to Dinner, We Have You Covered</span>
-      
+      <span className='header_text'>From Breakfast to Dinner, We Have You Covered</span> */}
+       <div className='header_title'>
+         Culina Share
+      </div>
+      <span className='header_text'>BE THE CHEF OF YOUR KITCHEN</span>
         </div>
         
      
